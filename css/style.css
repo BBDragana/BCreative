@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Black.ttf);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+
+.main-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 10vh;
+}
+
+.logo {
+    flex-grow: 65;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.menu-items {
+    flex-grow: 35;
+    
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 1em;
+}
+
+.menu-item {
+    margin-right: 2em;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    color:orange;
+}
+
+.logo-picture {
+    width: 13em;
+}
