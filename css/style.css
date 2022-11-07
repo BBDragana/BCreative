@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: Roboto;
-    src: url(fonts/Roboto/Roboto-Black.ttf);
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
   }
 
 * {
@@ -52,4 +52,63 @@
 
 .logo-picture {
     width: 13em;
+}
+
+.picture-container {
+    display: flex;
+    height:80vh;
+    width: 100%;
+}
+.picture {
+    height:100%;
+    width: 100%;
+}
+.cover{
+    position: absolute;
+    height:inherit;
+    width: 100%;
+    background-color: orange;
+    opacity: 0.5;
+}
+.picture-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    height:inherit;
+    width: 100%;
+    font-weight: bold;
+}
+
+.picture-content h1 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 8em;
+}
+
+.picture-content h2 {
+    font-size: 3em;
+}
+
+.picture-content button {
+    padding: 12px 25px;
+    border-radius: 32px;
+    background-color: black;
+    font-size: 2em;
+    color: white;
+}
+
+.picture-animation {
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    -webkit-animation: left-to-right 1.5s linear forwards;
+}
+   
+@-webkit-keyframes left-to-right{
+    from{left:-100%}
+    to{left:0}
 }
