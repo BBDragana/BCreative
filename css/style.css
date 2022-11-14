@@ -1,8 +1,7 @@
-
 @font-face {
     font-family: Roboto;
     src: url(../fonts/Roboto/Roboto-Black.ttf);
-  }
+}
 
 * {
     margin: 0;
@@ -32,7 +31,7 @@
 
 .menu-items {
     flex-grow: 35;
-    
+
     display: flex;
     justify-content: start;
     align-items: center;
@@ -47,7 +46,7 @@
 }
 
 .menu-item:hover {
-    color:orange;
+    color: rgb(247, 81, 4);
 }
 
 .logo-picture {
@@ -56,28 +55,31 @@
 
 .picture-container {
     display: flex;
-    height:80vh;
+    height: 80vh;
     width: 100%;
 }
+
 .picture {
-    height:100%;
+    height: 100%;
     width: 100%;
 }
-.cover{
+
+.cover {
     position: absolute;
-    height:inherit;
+    height: inherit;
     width: 100%;
-    background-color: orange;
-    opacity: 0.5;
+    opacity: 0.7;
+    background-image: linear-gradient(to right, rgb(255, 81, 0), yellow);
 }
-.picture-content{
+
+.picture-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     position: absolute;
-    height:inherit;
+    height: inherit;
     width: 100%;
     font-weight: bold;
 }
@@ -107,8 +109,101 @@
     width: 100%;
     -webkit-animation: left-to-right 1.5s linear forwards;
 }
-   
-@-webkit-keyframes left-to-right{
-    from{left:-100%}
-    to{left:0}
+
+@-webkit-keyframes left-to-right {
+    from {
+        left: -100%
+    }
+
+    to {
+        left: 0
+    }
 }
+
+div.picture-content button:hover {
+    color: rgb(247, 81, 4);
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.about-us p {
+    text-align: center;
+}
+
+.about-us hr {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 140px;
+    background-image: linear-gradient(to right, rgb(255, 81, 0), yellow);
+    border: orange;
+}
+
+.about-us-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 30vh;
+    height: 30vh;
+}
+
+.about-us .icon {
+    width: 13vh;
+    height: 13vh;
+    background-size:50%;
+    background-position: center;
+    background-repeat: no-repeat;  
+    border: solid rgb(78, 76, 76);
+    border-radius: 50%;
+    overflow:auto;
+display:inline-block;
+}
+
+.about-us .icon:hover {
+    background-color: orange;
+    border-color: orange;
+}
+
+.about-us .developer-icon {
+    background-image: url("../slike/developer.svg");
+}
+
+.about-us .branding-icon {
+    background-image: url("../slike/branding.svg");
+}
+
+.about-us .marketing-icon {
+    background-image: url("../slike/digital-marketing.svg");
+}
+
+.about-us .developer-icon:hover {
+    background-image: url("../slike/developer-hover.svg");
+}
+
+.about-us .branding-icon:hover {
+    background-image: url("../slike/branding-hover.svg");
+}
+
+.about-us .marketing-icon:hover {
+    background-image: url("../slike/digital-marketing-hover.svg");
+}
+
+
