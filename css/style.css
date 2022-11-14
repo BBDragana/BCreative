@@ -124,6 +124,11 @@ div.picture-content button:hover {
     color: rgb(247, 81, 4);
 }
 
+.content {
+    width: 50em;
+    margin: auto;
+}
+
 .about-us {
     display: flex;
     flex-direction: column;
@@ -161,20 +166,20 @@ div.picture-content button:hover {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    width: 30vh;
-    height: 30vh;
+    width: 20em;
+    height: 20em;
 }
 
 .about-us .icon {
-    width: 13vh;
-    height: 13vh;
-    background-size:50%;
+    width: 10em;
+    height: 10em;
+    background-size: 50%;
     background-position: center;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
     border: solid rgb(78, 76, 76);
     border-radius: 50%;
-    overflow:auto;
-display:inline-block;
+    overflow: auto;
+    display: inline-block;
 }
 
 .about-us .icon:hover {
@@ -206,4 +211,31 @@ display:inline-block;
     background-image: url("../slike/digital-marketing-hover.svg");
 }
 
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.portfolio-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.portfolio-btns button {
+    border: solid 1px rgb(90, 89, 89);
+    width: 10em;
+    height: 3em;
+    background-color: white;
+}
+
+
+.portfolio-btns button:hover {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+}
