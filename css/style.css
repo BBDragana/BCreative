@@ -239,3 +239,72 @@ div.picture-content button:hover {
     border-color: orange;
     color: white;
 }
+
+.gallery {
+    display: grid;
+    grid-template-areas:
+        'i1 i2 i3 i3'
+        'i1 i5 i6 i7'
+        'i4 i5 i6 i8'
+    ;
+    gap: 0px;
+}
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-areas:
+            'i1 i2'
+            'i1 i5'
+            'i4 i5'
+            'i3 i3'
+            'i6 i7'
+            'i6 i8'
+        ;
+    }
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.i1 {
+    grid-area: i1;
+    /* background-image: url("../slike/tsif-logo-dizajn-680x480px.jpg"); */
+}
+
+.i2 {
+    grid-area: i2;
+    /* background-image: url("../slike/rolex-logo-dizajn-340x480px.jpg"); */
+}
+
+.i3 {
+    grid-area: i3;
+    /* background-image: url("../slike/shwamhouse-web-dizajn340x4960px.jpg"); */
+}
+
+.i4 {
+    grid-area: i4;
+    /* background-image: url("../slike/plum-web-dizajn340x480px.jpg"); */
+}
+
+.i5 {
+    grid-area: i5;
+    /* background-image: url("../slike/app-development-680x480px.jpg"); */
+}
+
+.i6 {
+    grid-area: i6;
+    /* background-image: url("../slike/how2fit-web-design-680x480px.jpg"); */
+}
+
+.i7 {
+    grid-area: i7;
+    /* background-image: url("../slike/toyota-logo-dizajn-340x480px.jpg"); */
+}
+
+.i8 {
+    grid-area: i8;
+    /* background-image: url("../slike/bcreative-web-dizajn-web-development-340x480.jpg"); */
+}
