@@ -240,14 +240,21 @@ div.picture-content button:hover {
     color: white;
 }
 
+.galerry-container{
+    width: 80%;
+}
+
 .gallery {
     display: grid;
+    justify-content: space-evenly;
     grid-template-areas:
         'i1 i2 i3 i3'
         'i1 i5 i6 i7'
         'i4 i5 i6 i8'
     ;
     gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 @media (max-width: 480px) {
