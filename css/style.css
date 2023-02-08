@@ -278,40 +278,134 @@ div.picture-content button:hover {
 
 .i1 {
     grid-area: i1;
-    /* background-image: url("../slike/tsif-logo-dizajn-680x480px.jpg"); */
 }
 
 .i2 {
     grid-area: i2;
-    /* background-image: url("../slike/rolex-logo-dizajn-340x480px.jpg"); */
 }
 
 .i3 {
     grid-area: i3;
-    /* background-image: url("../slike/shwamhouse-web-dizajn340x4960px.jpg"); */
 }
 
 .i4 {
     grid-area: i4;
-    /* background-image: url("../slike/plum-web-dizajn340x480px.jpg"); */
 }
 
 .i5 {
     grid-area: i5;
-    /* background-image: url("../slike/app-development-680x480px.jpg"); */
 }
 
 .i6 {
     grid-area: i6;
-    /* background-image: url("../slike/how2fit-web-design-680x480px.jpg"); */
 }
 
 .i7 {
     grid-area: i7;
-    /* background-image: url("../slike/toyota-logo-dizajn-340x480px.jpg"); */
 }
 
 .i8 {
     grid-area: i8;
-    /* background-image: url("../slike/bcreative-web-dizajn-web-development-340x480.jpg"); */
 }
+
+.numbers-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10em;
+    background-color: orange;
+    color: white;
+    font-size: 1em;
+}
+
+.count-value {
+    text-align: center;
+}
+
+
+
+.line{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 140px;
+    border: solid orange 4px;
+}
+p{
+    text-align: center;
+    line-height: 2;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+
+    }
+.blog-item {
+    margin: 15px;
+}
+
+.img {
+    height: 335px;
+    width: 320px;
+ }
+h4.heading4 {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    
+}
+h5.gr {
+    padding: 5px;
+    text-align: center;
+    color: gray;
+    width: 100%;
+}
+
+.lnk {
+    padding: 15px;
+    text-align: center;
+    color: rgb(226, 34, 34);
+    width: 100%;
+    display: block;
+}
+
+.blog-picture {
+    position: relative;
+}
+
+.date {
+    position: absolute;
+   top: 0px;
+   right: 0px;
+   background-color: orange;
+   color: white;
+   height: 70px;
+   width: 50px;
+   padding: 10px;
+
+}
+.people-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.people-item {
+        margin: 15px;
+    }
+.people-picture {
+        position: relative;
+    } 
+
+.img {
+        height: 335px;
+        width: 320px;
+     }
