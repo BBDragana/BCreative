@@ -240,7 +240,7 @@ div.picture-content button:hover {
     color: white;
 }
 
-.galerry-container{
+.galerry-container {
     width: 80%;
 }
 
@@ -325,14 +325,21 @@ div.picture-content button:hover {
 }
 
 
+.title {
+    text-align: center;
+    padding-bottom: 20px;
+}
 
-.line{
+.line {
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 65px;
     width: 140px;
     border: solid orange 4px;
 }
-p{
+
+p {
+    margin-top: 35px;
+    margin-bottom: 35px;
     text-align: center;
     line-height: 2;
 }
@@ -344,8 +351,8 @@ p{
     justify-content: center;
     margin-top: 10px;
 
+}
 
-    }
 .blog-item {
     margin: 15px;
 }
@@ -353,13 +360,15 @@ p{
 .img {
     height: 335px;
     width: 320px;
- }
+}
+
 h4.heading4 {
     padding-top: 20px;
     text-align: center;
     width: 100%;
-    
+
 }
+
 h5.gr {
     padding: 5px;
     text-align: center;
@@ -381,15 +390,16 @@ h5.gr {
 
 .date {
     position: absolute;
-   top: 0px;
-   right: 0px;
-   background-color: orange;
-   color: white;
-   height: 70px;
-   width: 50px;
-   padding: 10px;
+    top: 0px;
+    right: 0px;
+    background-color: orange;
+    color: white;
+    height: 70px;
+    width: 50px;
+    padding: 10px;
 
 }
+
 .people-container {
     display: flex;
     flex-direction: row;
@@ -399,13 +409,23 @@ h5.gr {
 }
 
 .people-item {
-        margin: 15px;
-    }
+    margin: 15px;
+}
+
 .people-picture {
-        position: relative;
-    } 
+    position: relative;
+}
 
 .img {
-        height: 335px;
-        width: 320px;
-     }
+    height: 335px;
+    width: 320px;
+}
+
+.title {
+    padding-top: 55px;
+}
+
+.people-content {
+    width: 100%;
+    background-color: blanchedalmond;
+}
